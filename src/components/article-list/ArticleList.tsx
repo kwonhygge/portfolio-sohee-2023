@@ -1,5 +1,6 @@
 import ArticleItem from "@/src/components/article-item/ArticleItem";
 import { ArticleListProps } from "@/src/interface/article-list";
+
 import styles from "./ArticleList.module.css";
 
 export default function ArticleList(props: ArticleListProps) {

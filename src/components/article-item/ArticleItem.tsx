@@ -1,7 +1,9 @@
 import Image from "next/image";
+
 import { ArticleItemProps } from "@/src/interface/article-list";
-import styles from "./ArticleItem.module.css";
 import { manrope } from "@/src/styles/font";
+
+import styles from "./ArticleItem.module.css";
 
 export default function ArticleItem(props: ArticleItemProps) {
   const { article } = props;

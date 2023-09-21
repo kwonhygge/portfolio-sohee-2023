@@ -1,14 +1,16 @@
-import EMC from "@/public/img/emc.png";
-import Dyne from "@/public/img/dyne.png";
-import BabyDraw from "@/public/img/baby-draw.png";
-import SunSun from "@/public/img/sun-sun.png";
-import Turnable from "@/public/img/turnable.png";
-import Nowon from "@/public/img/nowon.jpg";
-import Wiflat from "@/public/img/wiflat.png";
-import { Article } from "@/src/interface/article-list";
 import ArticleList from "@/src/components/article-list/ArticleList";
 import Header from "@/src/components/header/Header";
+import { Article } from "@/src/interface/article-list";
 import { manrope } from "@/src/styles/font";
+
+import BabyDraw from "@/public/img/baby-draw.png";
+import Dyne from "@/public/img/dyne.png";
+import EMC from "@/public/img/emc.png";
+import Nowon from "@/public/img/nowon.jpg";
+import SunSun from "@/public/img/sun-sun.png";
+import Turnable from "@/public/img/turnable.png";
+import Wiflat from "@/public/img/wiflat.png";
+
 
 const articleList: Article[] = [
   {
