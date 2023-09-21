@@ -1,0 +1,24 @@
+.article{
+
+}
+
+.article h3{
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin: 0 0 1rem;
+}
+
+.date{
+    display: inline-block;
+    margin: 1.6rem 0 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.content{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: normal;
+}

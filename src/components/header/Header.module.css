@@ -1,0 +1,30 @@
+.header{
+    color: #000;
+}
+
+.nav{
+    max-width: 103rem;
+    height: 7.2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1{
+    font-size: 2.7rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 5.7rem;
+}
+
+.nav ul li {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
