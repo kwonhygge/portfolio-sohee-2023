@@ -1,5 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 
+import { PROJECTS_URL } from "@/src/constants/url";
 import { ArticleItemProps } from "@/src/interface/article-list";
 import { manrope, notoSansKR } from "@/src/styles/font";
 
@@ -14,13 +16,15 @@ export default function ArticleItem(props: ArticleItemProps) {
       <time className={styles.date}>{date}</time>
       <h3 className={manrope.className}>{title}</h3>
       <p className={`${notoSansKR.className} ${styles.content}`}>{content}</p>
-      <Image
-        src={imgSrc}
-        width={540}
-        height={360}
-        alt={title}
-        placeholder={"blur"}
-      />
+      <Link href={`${PROJECTS_URL}/${title}`}>
+        <Image
+          src={imgSrc}
+          width={540}
+          height={360}
+          alt={title}
+          placeholder={"blur"}
+        />
+      </Link>
     </article>
   );
 }
