@@ -14,7 +14,13 @@ export default function ArticleItem(props: ArticleItemProps) {
       <time className={styles.date}>{date}</time>
       <h3 className={manrope.className}>{title}</h3>
       <p className={`${notoSansKR.className} ${styles.content}`}>{content}</p>
-      <Image src={imgSrc} width={540} height={360} alt={title} />
+      <Image
+        src={imgSrc}
+        width={540}
+        height={360}
+        alt={title}
+        placeholder={"blur"}
+      />
     </article>
   );
 }
