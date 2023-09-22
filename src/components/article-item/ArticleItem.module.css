@@ -1,24 +1,31 @@
-.article{
-
+.article {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 2.2rem 0 0;
 }
 
-.article h3{
-    font-size: 2.6rem;
-    font-weight: 600;
-    line-height: 5rem;
-    margin: 0 0 1rem;
+.article h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin: 0 0 1.9rem;
+  line-height: 100%;
+  letter-spacing: -0.03px;
 }
 
-.date{
-    display: inline-block;
-    margin: 1.6rem 0 0;
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 2.5rem;
+.date {
+  display: inline-block;
+  margin: 0 0 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 100%;
 }
 
-.content{
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: normal;
+.content {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: justify;
+  margin: 0 0 5.3rem;
+  line-height: 160%;
+  letter-spacing: -0.84px;
 }

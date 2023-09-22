@@ -2,14 +2,15 @@
   position: sticky;
   top: 0;
   left: 0;
-  color: #000;
+  color: #999;
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .nav {
-  max-width: 103rem;
-  height: 7.2rem;
+  max-width: 120rem;
+  height: 5.6rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -17,19 +18,39 @@
 }
 
 .nav h1 {
-  font-size: 2.7rem;
+  font-size: 2.4rem;
   font-weight: 600;
-  line-height: 5rem;
+  line-height: 160%;
+  letter-spacing: -0.72px;
 }
 
 .nav ul {
   display: flex;
   align-items: center;
-  gap: 5.7rem;
+  gap: 3.5rem;
 }
 
-.nav ul li {
+.nav ul li a {
   font-size: 1.8rem;
   font-weight: 600;
-  line-height: 5rem;
+  line-height: 160%;
+  letter-spacing: -0.36px;
+}
+
+.brunch {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brunch a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 160%;
+  vertical-align: middle;
 }
