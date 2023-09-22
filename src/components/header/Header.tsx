@@ -11,13 +11,13 @@ export default function Header() {
         </h1>
         <ul>
           <li>
-            <a href="/projects">Project</a>
+            <a href="/projects">Works</a>
           </li>
           <li>
             <a href="/info">Info</a>
           </li>
-          <li className={styles.brunch}>
-            <a href="/brunch">B</a>
+          <li>
+            <a href="/brunch">Brunch</a>
           </li>
         </ul>
       </nav>
