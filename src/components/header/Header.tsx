@@ -7,7 +7,7 @@ export default function Header() {
     <header className={`${manrope.className} ${styles.header}`}>
       <nav className={styles.nav}>
         <h1>
-          <a href="/">Sohee</a>
+          <a href="/">hee</a>
         </h1>
         <ul>
           <li>
