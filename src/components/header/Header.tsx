@@ -1,3 +1,6 @@
+import Link from "next/link";
+
+import { BRUNCH_URL, INFO_URL, MAIN_URL, WORKS_URL } from "@/src/constants/url";
 import { manrope } from "@/src/styles/font";
 
 import styles from "./Header.module.css";
@@ -7,17 +10,19 @@ export default function Header() {
     <header className={`${manrope.className} ${styles.header}`}>
       <nav className={styles.nav}>
         <h1>
-          <a href="/">hee</a>
+          <Link href={MAIN_URL}>hee</Link>
         </h1>
         <ul>
           <li>
-            <a href="/projects">Works</a>
+            <Link href={WORKS_URL}>Works</Link>
           </li>
           <li>
-            <a href="/info">Info</a>
+            <Link href={INFO_URL}>Info</Link>
           </li>
           <li>
-            <a href="/brunch">Brunch</a>
+            <Link href={BRUNCH_URL} rel="noopener noreferrer" target="_blank">
+              Brunch
+            </Link>
           </li>
         </ul>
       </nav>
