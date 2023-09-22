@@ -11,7 +11,6 @@ import SunSun from "@/public/img/sun-sun.png";
 import Turnable from "@/public/img/turnable.png";
 import Wiflat from "@/public/img/wiflat.png";
 
-
 const articleList: Article[] = [
   {
     date: "2021",
@@ -67,7 +66,9 @@ export default function Home() {
   return (
     <main className={manrope.className}>
       <Header />
-      <ArticleList articles={articleList} />
+      <section>
+        <ArticleList articles={articleList} />
+      </section>
     </main>
   );
 }
